@@ -152,3 +152,8 @@ D:\ASP.NET\BookStoreWebsite\BookStore\BookStore\obj\Debug\netcoreapp3.1\Razor\Vi
 D:\ASP.NET\BookStoreWebsite\BookStore\BookStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\CartComponent\Default.cshtml.g.cs
 D:\ASP.NET\BookStoreWebsite\BookStore\BookStore\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
 D:\ASP.NET\BookStoreWebsite\BookStore\BookStore\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+D:\ASP.NET\BookStoreWebsite\BookStore\BookStore\bin\Debug\netcoreapp3.1\out\web.config
+D:\ASP.NET\BookStoreWebsite\BookStore\BookStore\bin\Debug\netcoreapp3.1\out\appsettings.Development.json
+D:\ASP.NET\BookStoreWebsite\BookStore\BookStore\bin\Debug\netcoreapp3.1\out\appsettings.json
+D:\ASP.NET\BookStoreWebsite\BookStore\BookStore\bin\Debug\netcoreapp3.1\out\BookStore.deps.json
+D:\ASP.NET\BookStoreWebsite\BookStore\BookStore\bin\Debug\netcoreapp3.1\out\BookStore.runtimeconfig.json

@@ -1,0 +1,17 @@
++ Enter command in console.cloud.google.com
+sudo apt-get update
+sudo apt-get install mysql-server
+Enter password
+sudo service mysql start
+mysql -uroot -p123456
+exit;
+
+cd deploybookstore
+git pull
+dotnet ef
+If error then enter command:
+export PATH="$PATH:$HOME/.dotnet/tools/"
+dotnet ef     // OK
+git pull
+dotnet BookStore.dll --do-migration
+dotnet BookStore.dll      //OK
