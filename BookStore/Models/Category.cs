@@ -12,7 +12,10 @@ namespace BookStore.Models
 
         public int Id { get; set; }
         public string Title { get; set; }
+        public int? ParentID { get; set; }
+        public Category Parent { get; set; }
 
+        public virtual ICollection<Category> childCategories { get; set; }
         public virtual ICollection<Categorybook> Categorybook { get; set; }
     }
 }

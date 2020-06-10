@@ -29,6 +29,8 @@ namespace BookStore
             services.AddDbContext<AppDataContext>();
             services.AddScoped<BookService>();
             services.AddScoped<MenuService>();
+            services.AddSession();
+            services.AddSession(options => { options.IdleTimeout = TimeSpan.FromMinutes(30); });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

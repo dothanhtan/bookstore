@@ -19,6 +19,19 @@ namespace BookStore.Controllers
             this._logger = logger;
             _bookService = bookService;
         }
-        
+        [HttpGet("/[controller]/[action]/{catId}/{page=1}")]
+        public IActionResult Category(int catId, int page = 1)
+        {
+            Console.WriteLine(catId.ToString());
+            int totalbook = _bookService.countBooksByCategory(catId);
+            ViewData["fromBook"] = BookService.PageSize * (page - 1) + 1;
+            ViewData["toBook"] = Math.Min(BookService.PageSize * page, totalbook);
+            ViewData["totalBook"] = totalbook;
+            ViewData["currentPage"] = page;
+            ViewData["categoryId"] = catId;
+            ViewData["endPage"] = (int)Math.Round((float)(totalbook + BookService.PageSize) / BookService.PageSize);
+            ViewData.Model = _bookService.getBookByCategoryAndPage(catId, page);
+            return View();
+        }
     }
 }

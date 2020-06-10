@@ -41,7 +41,15 @@ namespace BookStore.Migrations
                     { 29, "Mark Twain", "The Adventures of Huckleberry Finn", "Suspendisse quis ante rutrum, tincidunt leo quis, tincidunt est.", 250, 200 },
                     { 30, "Vladimir Nabokov", "The Epic of Gilgamesh", "Suspendisse quis ante rutrum, tincidunt leo quis, tincidunt est.", 150, 125 },
                     { 31, "Donald Trump", "The Girl On The Train", "Suspendisse quis ante rutrum, tincidunt leo quis, tincidunt est.", 150, 50 },
-                    { 32, "Barack Obama", "The Fault In Our Stars", "Suspendisse quis ante rutrum, tincidunt leo quis, tincidunt est.", 180, 125 }
+                    { 32, "Barack Obama", "The Fault In Our Stars", "Suspendisse quis ante rutrum, tincidunt leo quis, tincidunt est.", 180, 125 },
+                    { 33, "Nicola Yoon", "Nếu Chỉ Còn Một Ngày Để Sống", "Suspendisse quis ante rutrum, tincidunt leo quis, tincidunt est.", 200, 125 },
+                    { 34, "Luis Prats", "Hachiko: Chú Chó Đợi Chờ", "Suspendisse quis ante rutrum, tincidunt leo quis, tincidunt est.", 250, 125 },
+                    { 35, "Ken Kesey", "Bay Trên Tổ Chim Cúc Cu", "Suspendisse quis ante rutrum, tincidunt leo quis, tincidunt est.", 150, 125 },
+                    { 36, "Haruki Murakami", "Phía Nam Biên Giới, Phía Tây Mặt Trời", "Suspendisse quis ante rutrum, tincidunt leo quis, tincidunt est.", 160, 125 },
+                    { 37, "Kawamura Genki", "Thế Gian Này, Nếu Chẳng Còn Mèo", "Suspendisse quis ante rutrum, tincidunt leo quis, tincidunt est.", 140, 125 },
+                    { 38, "Svetlana Alexievich", "Chiến Tranh Không Có Một Khuôn Mặt Phụ Nữ", "Suspendisse quis ante rutrum, tincidunt leo quis, tincidunt est.", 180, 150 },
+                    { 39, "Carlos Ruiz Zafón", "Tù Nhân Của Thiên Đường", "Suspendisse quis ante rutrum, tincidunt leo quis, tincidunt est.", 120, 100 },
+                    { 40, "Van Draanen", "Đường Đua Của Những Giấc Mơ", "Suspendisse quis ante rutrum, tincidunt leo quis, tincidunt est.", 120, 60 }
                 });
 
             migrationBuilder.InsertData("menu",

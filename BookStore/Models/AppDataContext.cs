@@ -85,6 +85,14 @@ namespace BookStore.Models
                     .HasMaxLength(200)
                     .IsUnicode(false)
                     .HasDefaultValueSql("'NULL'");
+
+                entity.Property(e => e.ParentID)
+                    .HasColumnName("categoryID")
+                    .HasColumnType("int(15)");
+
+                entity.HasMany(d => d.childCategories).
+                    WithOne(d => d.Parent).
+                    HasForeignKey(d => d.ParentID);
             });
 
             modelBuilder.Entity<Categorybook>(entity =>

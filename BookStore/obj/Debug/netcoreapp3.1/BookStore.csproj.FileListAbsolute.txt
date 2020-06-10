@@ -145,3 +145,6 @@ D:\ASP.NET\BookStoreWebsite\BookStore\BookStore\obj\Debug\netcoreapp3.1\BookStor
 D:\ASP.NET\BookStoreWebsite\BookStore\BookStore\obj\Debug\netcoreapp3.1\BookStore.MvcApplicationPartsAssemblyInfo.cache
 D:\ASP.NET\BookStoreWebsite\BookStore\BookStore\obj\Debug\netcoreapp3.1\Razor\Views\Book\Detail.cshtml.g.cs
 D:\ASP.NET\BookStoreWebsite\BookStore\BookStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\MenuComponent\Default.cshtml.g.cs
+D:\ASP.NET\BookStoreWebsite\BookStore\BookStore\obj\Debug\netcoreapp3.1\Razor\Views\Category\Detail.cshtml.g.cs
+D:\ASP.NET\BookStoreWebsite\BookStore\BookStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\CategoryComponent\Default.cshtml.g.cs
+D:\ASP.NET\BookStoreWebsite\BookStore\BookStore\obj\Debug\netcoreapp3.1\Razor\Views\Book\Category.cshtml.g.cs
