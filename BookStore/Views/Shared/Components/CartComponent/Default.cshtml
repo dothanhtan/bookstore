@@ -5,12 +5,12 @@
     <div class="login-block">
         @if (!logined)
         {
-            <a href="@Url.Action("Index", "Account")" class="font-weight-bold">Login</a> <br>
-            <span>or</span><a href="@Url.Action("Index", "Account")">Register</a>
+            <a href="@Url.Action("Signin", "Account")" class="font-weight-bold">Login</a> <br>
+            <span>or</span><a href="@Url.Action("Signup", "Account")">Register</a>
         }
         else
         {
-            <h4>@ViewData["username"]</h4>
+            <h6>@ViewData["username"]</h6>
             <a href="@Url.Action("Logout", "Account")">Logout</a>
         }
 
@@ -29,7 +29,7 @@
             </span>
         </div>
         <div class="cart-dropdown-block">
-            <div class=" single-cart-block ">
+            <div class="single-cart-block">
                 @foreach (var item in ViewData.Model)
                 {
                     <div class="cart-product">

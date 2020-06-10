@@ -1,0 +1,54 @@
+﻿@{
+    if (ViewData["Title"] == null)
+    {
+        ViewData["Title"] = "BookStoreWebsite";
+    }
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>@ViewData["Title"]</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Use Minified Plugins Version For Fast Page Load -->
+    <link rel="stylesheet" type="text/css" media="screen" href="~/css/account.css" />
+    <link rel="shortcut icon" type="~/image/x-icon" href="~/image/favicon.ico">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+                <div class="card card-signin my-5">
+                    <div class="card-body">
+                        <h4 class="card-title text-center font-weight-bold">Sign Up</h4>
+                        <form class="form-signin" asp-controller="Account" asp-action="Register" method="post">
+                            <div class="form-label-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="fullName" class="form-control" placeholder="Full Name" required autofocus>
+                            </div>
+
+                            <div class="form-label-group">
+                                <label for="email">Email address</label>
+                                <input type="email" id="email" name="email" class="form-control" placeholder="Email address" required autofocus>
+                            </div>
+
+                            <div class="form-label-group">
+                                <label for="password">Password</label>
+                                <input type="password" id="password" name="password" class="form-control" placeholder="Password" required>
+                            </div>
+
+                            <div class="form-label-group">
+                                <label for="repeat-password">Repeat Password</label>
+                                <input type="password" id="repeat-password" class="form-control" placeholder="Repeat Password" required>
+                            </div>
+                            <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Register</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -150,3 +150,5 @@ D:\ASP.NET\BookStoreWebsite\BookStore\BookStore\obj\Debug\netcoreapp3.1\Razor\Vi
 D:\ASP.NET\BookStoreWebsite\BookStore\BookStore\obj\Debug\netcoreapp3.1\Razor\Views\Book\Category.cshtml.g.cs
 D:\ASP.NET\BookStoreWebsite\BookStore\BookStore\obj\Debug\netcoreapp3.1\Razor\Views\Cart\Index.cshtml.g.cs
 D:\ASP.NET\BookStoreWebsite\BookStore\BookStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\CartComponent\Default.cshtml.g.cs
+D:\ASP.NET\BookStoreWebsite\BookStore\BookStore\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+D:\ASP.NET\BookStoreWebsite\BookStore\BookStore\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs

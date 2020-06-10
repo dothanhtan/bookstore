@@ -23,7 +23,7 @@ namespace BookStore.Models
         public virtual DbSet<Category> Category { get; set; }
         public virtual DbSet<Categorybook> Categorybook { get; set; }
         public virtual DbSet<Menu> Menu { get; set; }
-
+        public virtual DbSet<Account> Account { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
@@ -151,6 +151,27 @@ namespace BookStore.Models
                 entity.HasMany(d => d.ChildMenus).
                     WithOne(d => d.Parent).
                     HasForeignKey(d => d.ParentId);
+            });
+
+            modelBuilder.Entity<Account>(entity =>
+            {
+                entity.ToTable("account");
+
+                entity.Property(e => e.Name)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.Email)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.Password)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.Mobile)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);  
             });
 
             OnModelCreatingPartial(modelBuilder);
