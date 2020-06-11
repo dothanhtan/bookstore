@@ -42,14 +42,22 @@ namespace BookStore.Migrations
                     { 30, "Vladimir Nabokov", "The Epic of Gilgamesh", "Suspendisse quis ante rutrum, tincidunt leo quis, tincidunt est.", 150, 125 },
                     { 31, "Donald Trump", "The Girl On The Train", "Suspendisse quis ante rutrum, tincidunt leo quis, tincidunt est.", 150, 50 },
                     { 32, "Barack Obama", "The Fault In Our Stars", "Suspendisse quis ante rutrum, tincidunt leo quis, tincidunt est.", 180, 125 },
-                    { 33, "Nicola Yoon", "Nếu Chỉ Còn Một Ngày Để Sống", "Suspendisse quis ante rutrum, tincidunt leo quis, tincidunt est.", 200, 125 },
-                    { 34, "Luis Prats", "Hachiko: Chú Chó Đợi Chờ", "Suspendisse quis ante rutrum, tincidunt leo quis, tincidunt est.", 250, 125 },
-                    { 35, "Ken Kesey", "Bay Trên Tổ Chim Cúc Cu", "Suspendisse quis ante rutrum, tincidunt leo quis, tincidunt est.", 150, 125 },
-                    { 36, "Haruki Murakami", "Phía Nam Biên Giới, Phía Tây Mặt Trời", "Suspendisse quis ante rutrum, tincidunt leo quis, tincidunt est.", 160, 125 },
-                    { 37, "Kawamura Genki", "Thế Gian Này, Nếu Chẳng Còn Mèo", "Suspendisse quis ante rutrum, tincidunt leo quis, tincidunt est.", 140, 125 },
-                    { 38, "Svetlana Alexievich", "Chiến Tranh Không Có Một Khuôn Mặt Phụ Nữ", "Suspendisse quis ante rutrum, tincidunt leo quis, tincidunt est.", 180, 150 },
-                    { 39, "Carlos Ruiz Zafón", "Tù Nhân Của Thiên Đường", "Suspendisse quis ante rutrum, tincidunt leo quis, tincidunt est.", 120, 100 },
-                    { 40, "Van Draanen", "Đường Đua Của Những Giấc Mơ", "Suspendisse quis ante rutrum, tincidunt leo quis, tincidunt est.", 120, 60 }
+                    { 33, "Nicola Yoon", "Lorem ipsum dolor sit amet, consectetur adipiscing elit", "Suspendisse quis ante rutrum, tincidunt leo quis, tincidunt est.", 200, 125 },
+                    { 34, "Luis Prats", "Donec tristique eros nec urna luctus posuere", "Suspendisse quis ante rutrum, tincidunt leo quis, tincidunt est.", 250, 125 },
+                    { 35, "Ken Kesey", "Nulla quis massa eu lacus hendrerit dignissim", "Suspendisse quis ante rutrum, tincidunt leo quis, tincidunt est.", 150, 125 },
+                    { 36, "Haruki Murakami", "Sed congue arcu ac tortor maximus vestibulum", "Suspendisse quis ante rutrum, tincidunt leo quis, tincidunt est.", 160, 125 },
+                    { 37, "Kawamura Genki", "Donec sit amet est dictum odio aliquam porttitor", "Suspendisse quis ante rutrum, tincidunt leo quis, tincidunt est.", 140, 125 },
+                    { 38, "Svetlana Alexievich", "Fusce accumsan nisl id fermentum aliquet", "Suspendisse quis ante rutrum, tincidunt leo quis, tincidunt est.", 180, 150 },
+                    { 39, "Carlos Ruiz Zafón", "Integer varius orci a ex malesuada, id egestas nisi feugiat", "Suspendisse quis ante rutrum, tincidunt leo quis, tincidunt est.", 120, 100 },
+                    { 40, "Van Draanen", "Sed lobortis ex id turpis imperdiet pharetra", "Suspendisse quis ante rutrum, tincidunt leo quis, tincidunt est.", 120, 60 },
+                    { 41, "Nicola Yoon", "Pellentesque porta enim nec lectus volutpat vulputate", "Suspendisse quis ante rutrum, tincidunt leo quis, tincidunt est.", 120, 100 },
+                    { 42, "J. D. Salinger", "Aliquam accumsan sapien et lacus interdum fringilla", "Suspendisse quis ante rutrum, tincidunt leo quis, tincidunt est.", 120, 80 },
+                    { 43, "Mori Eto", "Cras ullamcorper ipsum in lorem vehicula tincidunt", "Suspendisse quis ante rutrum, tincidunt leo quis, tincidunt est.", 120, 90 },
+                    { 44, "Khaled Hosseini", "Donec maximus eros nec enim tincidunt gravida", "Suspendisse quis ante rutrum, tincidunt leo quis, tincidunt est.", 120, 70 },
+                    { 45, "Luis Prats", "Nam elementum erat ornare accumsan iaculis", "Suspendisse quis ante rutrum, tincidunt leo quis, tincidunt est.", 120, 50 },
+                    { 46, "Jack London", "Nulla ac odio id eros blandit porttitor nec a risus", "Suspendisse quis ante rutrum, tincidunt leo quis, tincidunt est.", 120, 110 },
+                    { 47, "Ken Kesey", "Nulla bibendum mi ut accumsan vestibulum", "Suspendisse quis ante rutrum, tincidunt leo quis, tincidunt est.", 120, 115 },
+                    { 48, "Marc Levy", "Pellentesque non lacus gravida dui pellentesque", "Suspendisse quis ante rutrum, tincidunt leo quis, tincidunt est.", 120, 75 }           
                 });
 
             migrationBuilder.InsertData("menu",
@@ -74,14 +82,10 @@ namespace BookStore.Migrations
                     {16, "Checkout", 1, 3 },
                     {17, "Compare", 2, 3 },
                     {18, "Wishlist", 3, 3 },
-                    {19, "Login Register", 4, 3 },
-                    {20, "My Account", 5, 3 },
-                    {21, "Order Complete", 6, 3 },
-                    {22, "Faq", 7, 3 },
-                    {23, "Contact 02", 8, 3 },
-                    {24, "Blog Grid", 0, 4 },
-                    {25, "Blog List", 1, 4 },
-                    {26, "Blog Details", 2, 4 }
+                    {19, "My Account", 5, 3 },
+                    {20, "Blog Grid", 0, 4 },
+                    {21, "Blog List", 1, 4 },
+                    {22, "Blog Details", 2, 4 }
                 });
         }
 

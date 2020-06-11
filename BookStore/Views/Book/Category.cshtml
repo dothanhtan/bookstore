@@ -251,14 +251,25 @@
                             </li>
                         }
 
-                        <li class="active"><a href="" class="single-btn">1</a></li>
-                        @for (var i = currentPage + 1; i <= Math.Min(currentPage + 3, endPage); i++)
+                        @for (var i = 1; i < Math.Min(currentPage + 3, endPage); i++)
                         {
-                            <li>
-                                <a href="@Url.Action("Category", "Book", new { catId = categoryId, page = i})"
-                                   class="single-btn">@i</a>
-                            </li>
+                            @if (currentPage == i)
+                            {
+                                <li class="active">
+                                    <a href="@Url.Action("Category", "Book", new { catId = categoryId, page = i})"
+                                       class="single-btn">@i</a>
+                                </li>
+                            }
+                            else
+                            {
+                                <li>
+                                    <a href="@Url.Action("Category", "Book", new { catId = categoryId, page = i})"
+                                       class="single-btn">@i</a>
+                                </li>
+                            }
+
                         }
+
                         @if (!ViewData["toBook"].ToString().Equals(ViewData["totalBook"].ToString()))
                         {
                             <li>
