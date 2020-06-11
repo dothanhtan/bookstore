@@ -157,21 +157,34 @@ namespace BookStore.Models
             {
                 entity.ToTable("account");
 
+                entity.Property(e => e.Id)
+                    .HasColumnName("id")
+                    .HasColumnType("int(15)")
+                    .ValueGeneratedOnAdd();
+
                 entity.Property(e => e.Name)
-                    .HasMaxLength(50)
-                    .IsUnicode(false);
+                    .HasColumnName("name")
+                    .HasMaxLength(100)
+                    .IsUnicode(false)
+                    .HasDefaultValueSql("'NULL'");
 
                 entity.Property(e => e.Email)
-                    .HasMaxLength(50)
-                    .IsUnicode(false);
+                    .HasColumnName("email")
+                    .HasMaxLength(100)
+                    .IsUnicode(false)
+                    .HasDefaultValueSql("'NULL'");
 
                 entity.Property(e => e.Password)
-                    .HasMaxLength(50)
-                    .IsUnicode(false);
+                    .HasColumnName("password")
+                    .HasMaxLength(100)
+                    .IsUnicode(false)
+                    .HasDefaultValueSql("'NULL'");
 
                 entity.Property(e => e.Mobile)
-                    .HasMaxLength(50)
-                    .IsUnicode(false);  
+                    .HasColumnName("mobile")
+                    .HasMaxLength(100)
+                    .IsUnicode(false)
+                    .HasDefaultValueSql("'NULL'");
             });
 
             OnModelCreatingPartial(modelBuilder);
